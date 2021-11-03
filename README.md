@@ -16,7 +16,7 @@ Date:   Mon Nov 1 22:23:28 2021 +0800
 ```
 step 3. check out with ** --./file-path.cpp ** and recommit
 ```
-git checkout 5f249e5c0a71634dfbc835b3c47da2d198279c50 -- t-vector.cpp
+git checkout 5f249e5c0a71634dfbc835b3c47da2d198279c50 -- ./t-vector.cpp
 
 git add .
 git commit -m "reverted back from a failed compile to completed cout single vector[i] demo"
