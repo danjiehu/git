@@ -3,7 +3,8 @@ this repo is used to document helpful git commands and procedures
 
 ## revert a single file to last commit
 step 1. find the commit ID
-```git log ./t-vector.cpp```
+```git log ./t-vector.cpp
+```
 step 2. copy the right commit ID, for example `5f249e5c0a71634dfbc835b3c47da2d198279c50` from 
 ```
 commit 5f249e5c0a71634dfbc835b3c47da2d198279c50
