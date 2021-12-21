@@ -1,6 +1,11 @@
 # git
 this repo is used to document helpful git commands and procedures
 
+## upgrade gh
+```
+brew update && brew upgrade gh
+```
+
 ## remote add
 ```
 git remote add origin git@github.com:danjiehu/uiuc-coursera-assignment.git
