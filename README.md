@@ -1,14 +1,14 @@
 # git
 this repo is used to document helpful git commands and procedures
 
-## push an existing repository from the command line
+## remote add
 ```
 git remote add origin git@github.com:danjiehu/uiuc-coursera-assignment.git
 git branch -M main
 git push -u origin main
 ```
 
-## create a new repository on the command line
+## git init
 ```
 echo "# uiuc-coursera-assignment" >> README.md
 git init
@@ -19,7 +19,7 @@ git remote add origin git@github.com:danjiehu/uiuc-coursera-assignment.git
 git push -u origin main
 ```
 
-## Adding an existing project to GitHub using the command line
+## gh repo create
 https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/adding-an-existing-project-to-github-using-the-command-line
 
 ```
