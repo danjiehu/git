@@ -1,6 +1,18 @@
 # git
 this repo is used to document helpful git commands and procedures
 
+## renaming branches
+The default branch has been renamed!
+main is now named master
+
+If you have a local clone, you can update it by running the following commands.
+```
+git branch -m main master
+git fetch origin
+git branch -u origin/master master
+git remote set-head origin -a
+```
+
 ## revert a single file to deserved commit
 step 1. see log of commits
 ```
