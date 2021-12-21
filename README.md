@@ -12,6 +12,7 @@ git fetch origin
 git branch -u origin/master master
 git remote set-head origin -a
 ```
+`git branch -m master main` is what you can use to rename local branches, from master to main
 
 ## revert a single file to deserved commit
 step 1. see log of commits
