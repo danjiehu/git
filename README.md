@@ -1,6 +1,33 @@
 # git
 this repo is used to document helpful git commands and procedures
 
+## push an existing repository from the command line
+```
+git remote add origin git@github.com:danjiehu/uiuc-coursera-assignment.git
+git branch -M main
+git push -u origin main
+```
+
+## create a new repository on the command line
+```
+echo "# uiuc-coursera-assignment" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:danjiehu/uiuc-coursera-assignment.git
+git push -u origin main
+```
+
+## Adding an existing project to GitHub using the command line
+https://docs.github.com/en/github/importing-your-projects-to-github/importing-source-code-to-github/adding-an-existing-project-to-github-using-the-command-line
+
+```
+git init -b main
+git add . && git commit -m "initial commit"
+gh repo create
+```
+
 ## renaming branches
 The default branch has been renamed!
 main is now named master
